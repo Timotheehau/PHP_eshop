@@ -144,15 +144,50 @@ footer a {
     margin-left: 1rem; 
 
 }
-.profile-avatar {
-    width: 10rem !important;
-    height: 10rem !important;
-    border-radius: 50%;
-    margin-top: 1rem;
+.avatar {
+    width: 8.5rem;
+    height: 9rem;
+    border-radius: 100%;
 }
-.wrapper2 {
+
+.profile-card {
+    width: 50rem;
+    height: 27rem;
+    margin: auto;
     display: flex;
-    align-items: center;
+    -webkit-box-shadow: 1px 15px 12px -6px rgba(166,166,166,1);
+    -moz-box-shadow: 1px 15px 12px -6px rgba(166,166,166,1);
+    box-shadow: 1px 15px 12px -6px rgba(166,166,166,1);
+    border-radius: 20px;
+}
+
+.profile-card section {
+    display: flex;
+}
+
+.left {
+    background: linear-gradient(90deg, darkslategrey 0%, darkgray 100%);
+    width: 15rem;
+    height: 100%;
+    text-align: center;
+    display: flex;
     flex-direction: column;
-    padding-top:5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.right {
+    width: 35rem;
+    padding: 1.5rem;
+}
+
+.right div {
+    width: 17.5rem;
+}
+
+.email, .phone {
+    display: block;
 }
