@@ -14,7 +14,9 @@
         <li><a href="PHP_SQY_ESHOP.view.php">Accueil</a></li>
         <li><a href="products.view.php">Produits</a></li>
         <li><a href="contact.view.php">Contact</a></li>
+        <li><a href="login.view.php">Login</a></li>
         <li><a href="sign-up.view.php">Sign-up</a></li>
-
+        <li><a href="cart.view.php">Panier</a></li>
+        
     </ul>
 </nav>

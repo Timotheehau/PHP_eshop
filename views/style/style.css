@@ -39,8 +39,9 @@ background: rgba(226, 210, 62, 0.26);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.5px);
--webkit-backdrop-filter: blur(7.5px);
-}
+-webkit-backdrop-filter: blur(7.5px); 
+} 
+
 h1 {
     margin:0;
 }
@@ -81,4 +82,77 @@ h1 {
 width: 18rem;
 height: auto;
 margin-top: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+}
+form input {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 15rem;
+    height: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #E2D23E;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 0.5rem;
+}
+
+
+button {
+    background-color: darkslategrey;
+    color: white;
+    height: 2rem;
+    border-radius: 6px;
+    border: solid 1px darkslategrey;
+}
+.sign-up-form {
+    margin-top: 4 rem;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: #E2D23E;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem; 
+
+}
+.profile-avatar {
+    width: 10rem !important;
+    height: 10rem !important;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.wrapper2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:5rem;
 }
