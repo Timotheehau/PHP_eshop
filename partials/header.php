@@ -15,11 +15,14 @@ parse_url($_SERVER['REQUEST_URI'])['path'] === '/index.php' ? $path = 'views/' :
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eshop PHP</title>
     <link rel="stylesheet" href="<?= $path ?>style/style.css">
+    <script src="../controllers/scripts/app.js" defer></script>
 </head>
 <body>
 
 <nav>
-    <ul>
+    <img src="../assets/icons/icon-burger.png" class="burger-menu">
+    <ul class="menu">
+        <p class="close-menu">X</p>
         <li><a href="index.php">Accueil</a></li>
         <li><a href="<?= $path ?>contact.view.php">Contact</a></li>
         
