@@ -1,7 +1,7 @@
 </div>
 
 <footer>
-    <p>© 2021 - Tous droits réservés</p>
+    <p>© <?= date('Y')?> - Tous droits réservés</p>
     
     <a href="#">Mentions légales</a>
     

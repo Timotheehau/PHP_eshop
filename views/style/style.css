@@ -191,3 +191,19 @@ footer a {
 .email, .phone {
     display: block;
 }
+footer a, footer p {
+    font-size: 0,5rem;
+    text-decoration: none;
+    color: grey;
+}
+footer a{
+    margin-right: 0.5rem;
+}
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+}
